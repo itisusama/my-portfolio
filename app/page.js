@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 const Home = () => {
   return (
     <section className="h-full">
-      <div className="container mx-auto xl:mt-[-100px] xl:relative xl:z-[-100]">
+      <div className="container mx-auto xl:relative">
         <div className="flex flex-col xl:flex-row items-center justify-between">
           <div className="text-center xl:text-left">
             <h1 className="font-semibold mb-4 xl:mb-8">Software Engineer</h1>
