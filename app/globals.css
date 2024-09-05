@@ -13,3 +13,7 @@
     -webkit-text-stroke: 1px #f90000;
   }
 }
+
+section {
+  overflow: hidden !important; /* Prevent elements from overflowing in the section */
+}
