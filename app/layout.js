@@ -18,6 +18,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-2655919799408822" />
+      </head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2655919799408822"
+     crossorigin="anonymous"></script>
       <body className={jetbrainsMono.variable}>
         <Header/>
         <StairsTransition/>
