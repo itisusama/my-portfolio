@@ -20,17 +20,17 @@ const projects = [
     image: "/assets/work/iphonearena.png",
     link: "https://itisusama.github.io/iphonearena/",
   },
+  // {
+  //   num: "02",
+  //   category: "Frontend Service",
+  //   title: "Pro Tyre Fitters",
+  //   description: "This is a tyre Service Site built and deployed in react js",
+  //   stack: [{name:"React.js"}, {name:"Bootstrap"}, {name:"CSS 3"}],
+  //   image: "/assets/work/protyrefitters.png",
+  //   link: "https://protyrefitters.co.uk/",
+  // },
   {
     num: "02",
-    category: "Frontend Service",
-    title: "Pro Tyre Fitters",
-    description: "This is a tyre Service Site built and deployed in react js",
-    stack: [{name:"React.js"}, {name:"Bootstrap"}, {name:"CSS 3"}],
-    image: "/assets/work/protyrefitters.png",
-    link: "https://protyrefitters.co.uk/",
-  },
-  {
-    num: "03",
     category: "Frontend Service",
     title: "Prime Chauffeur",
     description: "This is a chauffeuring website built in pure Html/Css, in Laravel and deployed and also built in react js",
@@ -39,7 +39,7 @@ const projects = [
     link: "https://primechauffeurreact.vercel.app/",
   },
   {
-    num: "04",
+    num: "03",
     category: "Frontend Service",
     title: "iChauffeur",
     description: "This is a chauffeuring website built in pure Html/Css, in Laravel and deployed and also built in react js",
@@ -48,7 +48,7 @@ const projects = [
     link: "https://itisusama.github.io/ichauffeur/",
   },
   {
-    num: "05",
+    num: "04",
     category: "Frontend Ecommerce",
     title: "Wood Mart",
     description: "This is a furniture site website built and deployed in react",
@@ -57,7 +57,7 @@ const projects = [
     link: "https://wood-mart-ruddy.vercel.app/",
   },
   {
-    num: "06",
+    num: "05",
     category: "Full Stack",
     title: "Usama Hassan Portfolio",
     description: "This is my personal portfolio build with frontend with REST API",
