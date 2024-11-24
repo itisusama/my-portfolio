@@ -40,6 +40,18 @@ const service = [
     desc: "I will extract data for from the competitor website for your web applications",
     href: "https://www.linkedin.com/in/usama-hassan-02a6b522a/"
   },
+  {
+    num: "07",
+    title: "Blog Writing",
+    desc: "I will write a full SEO optimized Blog on your provided topic",
+    href: "https://www.linkedin.com/in/usama-hassan-02a6b522a/"
+  },
+  {
+    num: "08",
+    title: "Novel Writing",
+    desc: "I will write a complete novel on your provided idea or suggested idea",
+    href: "https://www.linkedin.com/in/usama-hassan-02a6b522a/"
+  },
 ]
 
 const Services = () => {

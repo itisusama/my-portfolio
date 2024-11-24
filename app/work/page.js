@@ -54,16 +54,36 @@ const projects = [
     description: "This is a furniture site website built and deployed in react",
     stack: [{name:"HTML 5"}, {name:"CSS 3"}, {name:"React.js"}],
     image: "/assets/work/woodmart.png",
-    link: "https://wood-mart-ruddy.vercel.app/",
+    link: "https://woodmart-sand.vercel.app/",
   },
   {
     num: "05",
     category: "Full Stack",
     title: "Usama Hassan Portfolio",
     description: "This is my personal portfolio build with frontend with REST API",
-    stack: [{name:"REST API"}, {name:"React.js"}, {name:"Node.js"}, {name:"Tailwind CSS"}],
+    stack: [{name:"REST API"}, {name:"NEXT.js"}, {name:"Node.js"}, {name:"Tailwind CSS"}, {name:"ShadCN"}],
     image: "/assets/work/portfolio.png",
-    link: "https://usama-portfolio-one.vercel.app//",
+    link: "https://www.usamahassanasi.com",
+  },
+
+  {
+    num: "06",
+    category: "MERN Stack",
+    title: "Workout Buddy",
+    description: "This is a workout CRUD app with REST API",
+    stack: [{name:"REST API"}, {name:"React.js"}, {name:"Node.js"}, {name:"Tailwind CSS"}],
+    image: "/assets/work/workout-buddy.png",
+    link: "https://mern-app-pi-sandy.vercel.app/",
+  },
+
+  {
+    num: "07",
+    category: "Full Stack",
+    title: "Writers Editor",
+    description: "This is a writers editor CRUD app with Local API",
+    stack: [{name:"LOCAL API"}, {name:"NEXT.js"}, {name:"Node.js"}, {name:"Tailwind CSS"}],
+    image: "/assets/work/editor.png",
+    link: "https://my-story-sandy.vercel.app/",
   },
 ]
 
@@ -76,6 +96,10 @@ const Work = () => {
   }
   return (
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0">
+    <div className="flex justify-center items-center">
+    <p className="text-center mb-4 w-[90%] lg:w-[80%]">All the Websites and Web Apps Shown here are those on which I worked on and are legal for me to show. I have worked on live domain websites but I am not authorized to show them here as they are personal properties of the companies that I worked with.</p>
+    </div>
+    
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
@@ -125,7 +149,7 @@ const Work = () => {
                   <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
                     <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                     <div className="relative w-full h-full">
-                      <Image src={project.image} fill className="object-cover" alt="project"/>
+                      <Image src={project.image} fill className="" alt="project"/>
                     </div>
                   </div>
                  </SwiperSlide>
