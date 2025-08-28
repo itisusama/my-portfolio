@@ -84,7 +84,7 @@ const Contact = () => {
               <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl" onSubmit={handleSubmit}>
                 <h3 className="text-4xl text-accent">Let's work together</h3>
                 <p className="text-white/60">
-                  If you have any questions or want to discuss a project, feel free to reach out to me.
+                  If you have any questions or want to discuss a project, feel free to reach out to me. <br/> add your contact info in message in order to reach you.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <Input
@@ -154,3 +154,4 @@ const Contact = () => {
 }
 
 export default Contact
+
