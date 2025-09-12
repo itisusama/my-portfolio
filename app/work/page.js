@@ -12,7 +12,16 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
   {
-    num: "01",
+    num: "02",
+    category: "Full Stack",
+    title: "Web Tonic",
+    description: "This is a Web Development Services Website",
+    stack: [{name:"HTML 5"}, {name:"CSS 3"}, {name:"JavaScript"}, {name:"React"}, {name:"Typescript"}, {name:"Mailing API"}, {name:"Tailwind"},],
+    image: "/assets/work/webtonic.PNG",
+    link: "https://webtonic-solutions.vercel.app/",
+  },
+  {
+    num: "02",
     category: "Frontend Ecommerce",
     title: "Iphone Arena",
     description: "This is a mobiles and accessories e-commerce built in pure Html/Css",
@@ -20,17 +29,8 @@ const projects = [
     image: "/assets/work/iphonearena.png",
     link: "https://itisusama.github.io/iphonearena/",
   },
-  // {
-  //   num: "02",
-  //   category: "Frontend Service",
-  //   title: "Pro Tyre Fitters",
-  //   description: "This is a tyre Service Site built and deployed in react js",
-  //   stack: [{name:"React.js"}, {name:"Bootstrap"}, {name:"CSS 3"}],
-  //   image: "/assets/work/protyrefitters.png",
-  //   link: "https://protyrefitters.co.uk/",
-  // },
-  {
-    num: "02",
+   {
+    num: "03",
     category: "Frontend Service",
     title: "Prime Chauffeur",
     description: "This is a chauffeuring website built in pure Html/Css, in Laravel and deployed and also built in react js",
@@ -39,7 +39,7 @@ const projects = [
     link: "https://primechauffeurreact.vercel.app/",
   },
   {
-    num: "03",
+    num: "04",
     category: "Frontend Service",
     title: "iChauffeur",
     description: "This is a chauffeuring website built in pure Html/Css, in Laravel and deployed and also built in react js",
@@ -48,7 +48,7 @@ const projects = [
     link: "https://itisusama.github.io/ichauffeur/",
   },
   {
-    num: "04",
+    num: "05",
     category: "Frontend Ecommerce",
     title: "Wood Mart",
     description: "This is a furniture site website built and deployed in react",
@@ -57,7 +57,7 @@ const projects = [
     link: "https://woodmart-sand.vercel.app/",
   },
   {
-    num: "05",
+    num: "06",
     category: "Full Stack",
     title: "Usama Hassan Portfolio",
     description: "This is my personal portfolio build with frontend with REST API",
@@ -67,7 +67,7 @@ const projects = [
   },
 
   {
-    num: "06",
+    num: "07",
     category: "MERN Stack",
     title: "Workout Buddy",
     description: "This is a workout CRUD app with REST API",
@@ -77,7 +77,7 @@ const projects = [
   },
 
   {
-    num: "07",
+    num: "08",
     category: "Full Stack",
     title: "Writers Editor",
     description: "This is a writers editor CRUD app with Local API",
@@ -163,5 +163,6 @@ const Work = () => {
     </section>
   )
 }
+
 
 export default Work
