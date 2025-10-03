@@ -46,9 +46,19 @@ const experience = {
   description: "I did my job with the following companies",
   items: [
     {
+      company: "Fusion Wave",
+      position: "Web Developer",
+      duration: "Dec 2024 – Aug 2025"
+    },    
+    {
+      company: "DAN DAN SOFTWARE",
+      position: "Full Stack Software Developer",
+      duration: "Oct 2024 – Dec 2024"
+    },
+    {
       company: "M-Technologies",
       position: "Web Frontend Developer",
-      duration: "October 2023 - Present"
+      duration: "October 2023 - Sep 2024"
     },
     {
       company: "Quaid College",
@@ -258,3 +268,4 @@ const Resume = () => {
 }
 
 export default Resume
+
