@@ -85,6 +85,146 @@ const projects = [
     image: "/assets/work/editor.png",
     link: "https://my-story-sandy.vercel.app/",
   },
+  {
+    num: "09",
+    category: "Full Stack",
+    title: "Trinity AssetCare",
+    description: "Developed a responsive website for asset management services.",
+    stack: [
+      { name: "JavaScript" },
+      { name: "React.js" },
+    ],
+    image: "https://images.unsplash.com/photo-1605902711622-cfb43c4437d1", // office assets
+    link: "https://trinity-assetcare.com/",
+  },
+  {
+    num: "10",
+    category: "Full Stack Service",
+    title: "Hive Cleaning SVC",
+    description: "Website for a professional cleaning service company.",
+    stack: [
+      { name: "React" },
+      { name: "TypeScript" },
+    ],
+    image: "https://images.unsplash.com/photo-1581579188871-45ea61f2a0c8", // cleaning service
+    link: "https://www.hivecleaningsvc.com/",
+  },
+  {
+    num: "11",
+    category: "Full Stack Platform",
+    title: "Networking Executives",
+    description: "A professional networking platform built for executives and business owners.",
+    stack: [
+      { name: "React.js" },
+      { name: "JavaScript" },
+      { name: "Firebase" },
+    ],
+    image: "https://images.unsplash.com/photo-1556761175-4b46a572b786", // business networking
+    link: "https://networkingexecutives.com/",
+  },
+  {
+    num: "12",
+    category: "Full Stack",
+    title: "Web-Tonic Solutions",
+    description: "Professional website development and digital solutions company.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+    ],
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c", // web dev workspace
+    link: "https://webtonic-solutions.vercel.app/",
+  },
+  {
+    num: "13",
+    category: "Full Stack",
+    title: "Cast Sphere",
+    description: "A creative casting platform to help authors choose characters for their novels.",
+    stack: [
+      { name: "React" },
+      { name: "Next.js" },
+      { name: "Express" },
+      { name: "TypeScript" },
+      { name: "PostgreSQL" }
+    ],
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f", // storytelling concept
+    link: "https://cast-sphere-showcase.vercel.app/",
+  },
+  {
+    num: "14",
+    category: "Projects Collection",
+    title: "Side Projects",
+    description: "A collection of various innovative projects and web app tools.",
+    stack: [
+      { name: "React" },
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Node.js" }
+    ],
+    image: "https://images.unsplash.com/photo-1551836022-4c4c79ecde51", // creative workspace
+    link: "https://projects-zeta-beryl.vercel.app/",
+  },
+  {
+    num: "15",
+    category: "Full Stack",
+    title: "Red-Connect",
+    description: "A digital blood donation platform that connects donors and recipients.",
+    stack: [
+      { name: "React" },
+      { name: "Next.js" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "MongoDB" }
+    ],
+    image: "https://images.unsplash.com/photo-1603398938378-127d1f0e5b69", // medical/health theme
+    link: "https://red-connect-tawny.vercel.app/",
+  },
+  {
+    num: "16",
+    category: "Full Stack Productivity",
+    title: "Work Nest",
+    description: "A shareable task management system for teams and individuals.",
+    stack: [
+      { name: "React" },
+      { name: "Next.js" },
+      { name: "Drizzle" },
+      { name: "Next API" },
+      { name: "PostgreSQL" }
+    ],
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d", // productivity theme
+    link: "https://work-nest-five-cyan.vercel.app/",
+  },
+  {
+    num: "17",
+    category: "Full Stack Health",
+    title: "DIP (Web)",
+    description: "A web-based clinic management system for digital patient tracking.",
+    stack: [
+      { name: "React.js" },
+      { name: "TypeScript" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "Postgres" }
+    ],
+    image: "https://images.unsplash.com/photo-1580281657521-8b79bbed2983", // healthcare app
+    link: "https://dip-pi.vercel.app/",
+  },
+  {
+    num: "18",
+    category: "Full Stack Utility",
+    title: "Short Vault",
+    description: "An encrypted, password-protected link shortening system.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "ShadCn" },
+      { name: "NEXT API" },
+      { name: "MongoDB" }
+    ],
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67", // cybersecurity theme
+    link: "https://short-vault.vercel.app/",
+  }
 ]
 
 const Work = () => {
@@ -166,3 +306,4 @@ const Work = () => {
 
 
 export default Work
+
