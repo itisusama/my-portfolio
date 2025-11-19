@@ -19,8 +19,7 @@ const Home = () => {
             With a passion for problem-solving and a passion for writing clean, efficient code, I bring ideas to life through innovative software solutions. Let's build something extraordinary together.
             </p>
             <Button variant="outline">
-              <a href="https://drive.google.com/file/d/1dl0BPtY3skJYXgGt7YKB4Hyhxzc9FuXF/view?usp=sharing" target="_blank"><span>Download CV</span></a>
-              <a href="https://shorturl.at/2djrA" target="_blank"><FiDownload className="ml-2" /></a>
+              <a href="https://drive.google.com/file/d/1dl0BPtY3skJYXgGt7YKB4Hyhxzc9FuXF/view?usp=sharing" target="_blank"><FiDownload className="ml-2" /></a>
             </Button>
             <div className="mb-8 xl:mb-0">
               <Socials/>
